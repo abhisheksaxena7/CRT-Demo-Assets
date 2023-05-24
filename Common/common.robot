@@ -8,7 +8,9 @@ Library                         Collections
 
 *** Variables ***
 ${BROWSER}                      chrome
-${homeUrl}                     ${loginUrl}/lightning/page/home
+${username}                     abhi@demospiff.com
+${login_url}                    https://mccopado-532.lightning.force.com/            # Salesforce instance. NOTE: Should be overwritten in CRT variables
+${home_url}                     ${login_url}/lightning/page/home
 
 
 
