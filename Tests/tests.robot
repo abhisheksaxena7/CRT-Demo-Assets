@@ -50,14 +50,13 @@ Create a lead and account, convert a lead to an opportunity.
 
     #Verify we are home, and begin entering a new lead.
     Home
-    LaunchApp                   Sales
-    ClickUntil                  Recently Viewed                   Leads
+    LaunchApp                   Leads
     ClickText                   New
 
     #Verify data validation by attempting to save an incomplete form
     UseModal                    On                          #The UseModal keyword allows us to easily target only the elements on the currently active modal. 
     VerifyText                  New Lead
-    Picklist                    Salutation                  Mr.
+    Picklist                    Salutation                  Dr.
     TypeText                    First Name                  ${first}
     TypeText                    Last Name                   ${last}
     ClickText                   Save                        partial_match=false
