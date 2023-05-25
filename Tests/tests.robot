@@ -29,12 +29,13 @@ Simple End To End Flow
     TypeText                    Job Title*                  Sales Engineer
     DropDown                    Country                     Netherlands
     Home
-    LaunchApp                   Sales
-    ClickUntil                  Send List Email             Leads
+    LaunchApp                   Leads
+    ClickText                   Show more action
+    VerifyText                  Send List Email             
     VerifyText                  Marty McFly
     ClickText                   Marty McFly
     ClickText                   Details
-    VerifyField                 Name                        Mr. Marty McFly
+    VerifyField                 Name                        Dr. Marty McFly
     VerifyField                 Company                     Copado
     VerifyText                  No duplicate rules are activated. Activate duplicate rules to identify potential duplicate records.
 
