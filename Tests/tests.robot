@@ -98,7 +98,7 @@ Create a lead and account, convert a lead to an opportunity.
     ScrollTo                    Created By
     ClickText                   Edit Description
     TypeText                    Description                 Test automation helps us rapidly deliver high quality releases!
-    ClickText                   Save
+    ClickText                   Save                        delay=5s
     VerifyText                  App Launcher                delay=10s
 
     #Cleanup Data
