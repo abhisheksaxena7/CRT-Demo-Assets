@@ -87,13 +87,13 @@ Create a lead and account, convert a lead to an opportunity.
     UseModal                    Off
 
     #Verify opportunity data is correct
+    LaunchApp                   Opportunities
     ClickText                   Opportunities
     VerifyText                  ${company}-
     ClickText                   ${company}-
     ClickText                   Details
-    VerifyText                  Leads
-    VerifyText                  TEST ROBOT                  anchor=2                    # We can use index anchors.
-    VerifyText                  TEST ROBOT                  anchor=Stage                # We can also use text based anchors.
+    VerifyText                  Abhishek Saxena             anchor=2                    # We can use index anchors.
+    VerifyText                  Abhishek Saxena             anchor=Stage                # We can also use text based anchors.
     VerifyField                 Probability (%)             10%
     ScrollTo                    Created By
     ClickText                   Edit Description
@@ -103,7 +103,7 @@ Create a lead and account, convert a lead to an opportunity.
 
     #Cleanup Data
     Home
-    ClickText                   Accounts
+    LaunchApp                   Accounts
     RunBlock                    VerifyNoAccounts            timeout=180s                exp_handler=DeleteData
 
 
