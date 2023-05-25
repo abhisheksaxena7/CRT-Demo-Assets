@@ -99,6 +99,7 @@ Create a lead and account, convert a lead to an opportunity.
     ClickText                   Edit Description
     TypeText                    Description                 Test automation helps us rapidly deliver high quality releases!
     ClickText                   Save
+    Sleep                       5
     VerifyText                  App Launcher
 
     #Cleanup Data
