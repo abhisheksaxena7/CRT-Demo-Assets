@@ -44,7 +44,6 @@ DeleteData
 Cleanup                   
     Login
     Sleep                       3
-    LaunchApp                   Sales
-    ClickText                   Accounts
+    LaunchApp                   Accounts
     RunBlock                    VerifyNoAccounts            timeout=180s                exp_handler=DeleteData
     Sleep                       3
